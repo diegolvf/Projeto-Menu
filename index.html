@@ -29,7 +29,7 @@
                         <span class="preco" data-id="1">R$ --</span>
                         <div class="quantity buttons_added">
                             <input type="button" value="-" class="minus">
-                            <input type="number" step="1" min="1" max="" id="1" name="quantity" value="1" title="Qty" class="input-text
+                            <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty" class="input-text
                             qty text" size="4" pattern="" inputmode="">
                             <input type="button" value="+" class="plus">
                         </div>
@@ -40,7 +40,7 @@
                         <span class="preco" data-id="2">R$ --</span>
                         <div class="quantity buttons_added">
                             <input type="button" value="-" class="minus">
-                            <input type="number" step="1" min="1" max="" id="2" name="quantity" value="1" title="Qty" class="input-text
+                            <input type="number" step="1" min="0" max="" id="2" name="quantity" value="0" title="Qty" class="input-text
                             qty text" size="4" pattern="" inputmode="">
                             <input type="button" value="+" class="plus">
                         </div>
@@ -52,7 +52,7 @@
                         <span class="preco" data-id="3">R$ --</span>
                         <div class="quantity buttons_added">
                             <input type="button" value="-" class="minus">
-                            <input type="number" step="1" min="1" max="" id="3" name="quantity" value="1" title="Qty" class="input-text
+                            <input type="number" step="1" min="0" max="" id="3" name="quantity" value="0" title="Qty" class="input-text
                             qty text" size="4" pattern="" inputmode="">
                             <input type="button" value="+" class="plus">
                         </div>
@@ -71,7 +71,7 @@
                         <span class="preco" data-id="4">R$ --</span>
                         <div class="quantity buttons_added">
                             <input type="button" value="-" class="minus">
-                            <input type="number" step="1" min="1" max="" id="4" name="quantity" value="1" title="Qty" class="input-text
+                            <input type="number" step="1" min="0" max="" id="4" name="quantity" value="0" title="Qty" class="input-text
                             qty text" size="4" pattern="" inputmode="">
                             <input type="button" value="+" class="plus">
                         </div>
@@ -83,7 +83,7 @@
                         <span class="preco" data-id="5">R$ --</span>
                         <div class="quantity buttons_added">
                             <input type="button" value="-" class="minus">
-                            <input type="number" step="1" min="1" max="" id="5" name="quantity" value="1" title="Qty" class="input-text
+                            <input type="number" step="1" min="0" max="" id="5" name="quantity" value="0" title="Qty" class="input-text
                             qty text" size="4" pattern="" inputmode="">
                             <input type="button" value="+" class="plus">
                         </div>
@@ -95,7 +95,7 @@
                         <span class="preco" data-id="6">R$ --</span>
                         <div class="quantity buttons_added">
                             <input type="button" value="-" class="minus">
-                            <input type="number" step="1" min="1" max="" id="6" name="quantity" value="1" title="Qty" class="input-text
+                            <input type="number" step="1" min="0" max="" id="6" name="quantity" value="0" title="Qty" class="input-text
                             qty text" size="4" pattern="" inputmode="">
                             <input type="button" value="+" class="plus">
                         </div>
@@ -106,16 +106,18 @@
                 <h2>Dados Pessoais</h2>
                 <div class="cadastro">
                     <div class="title-input"><span>Nome:</span></div>
-                    <input type="text" placeholder="Digite o seu nome">
+                    <input type="text" id="name" placeholder="Digite o seu nome">
                     <div class="title-input"><span>Telefone:</span></div>
                     <input type="tel" id="phone" placeholder="Digite o seu telefone">
                     <div class="title-input"><span>Email:</span></div>
-                    <input type="email" placeholder="Digite o seu email">
+                    <input type="email" id="email" placeholder="Digite o seu email">
                 </div>
             </div>
-            <button>Calcular</button>
-            <div class="pedido">
-                
+            <button onclick="calc()">Calcular</button>
+            <div class="check-out">
+                <div id="output">
+    
+                </div>
             </div>
         </div>
     </main>
