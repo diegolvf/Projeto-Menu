@@ -4,6 +4,27 @@ body {
     background-color: var(--bg-body);
 }
 
+h1, h2 {
+  text-align: center;
+  margin: 0.6rem;
+  font-family: var(--font-Montserrat);
+  font-weight: 450;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+p, span {
+  text-align: center;
+  margin: 0.1rem;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
