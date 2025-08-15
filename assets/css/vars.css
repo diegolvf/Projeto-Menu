@@ -6,14 +6,7 @@
     --bg-body: #C5C1C0;
     --bg-main-container: #FFFFFF;
     --bg-menu: #F5F5F5;
-    --col-preco: #3A6C2B;
-    --search-input-color: #fff;
-    --header-login-subscribe-color: #a7a7a7;
-    --header-login-color: #000;
-    --bg-playlist-color: #121212;
-    --playlist-greeting-color: #fff;
-    --playlist-session-color: #fff;
-    --cards-span-color: #fff;
-    --bg-artist-card:#181818;
-    --bg-artist-card-hover: #252525;
+    --bg-button-color: #000;
+    --color-button: #FFFBFE;
+    --color-preco: #3A6C2B;
 }

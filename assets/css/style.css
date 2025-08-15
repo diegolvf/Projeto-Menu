@@ -87,7 +87,7 @@ p, span {
 
 .preco {
     font-weight: bold;
-    color: var(--col-preco);
+    color: var(--color-preco);
     
 }
 
@@ -124,12 +124,19 @@ input {
     margin: 0.8rem;
 }
 
+input:focus {
+    outline: none; /* remove o contorno padrão (opcional) */
+    border: 2px solid #007bff; /* borda azul mais grossa */
+    box-shadow: 0 0 5px #007bff; /* leve brilho */
+    background-color: #f0f8ff; /* muda o fundo */
+}
+
 button {
     width: 20%;
     margin: auto;
     padding: 0.7rem 1rem;
-    color: #FFFBFE;
-    background-color: #000000;
+    color: var(--color-button);
+    background-color: var(--bg-button-color);
     font-size: 0.8rem;
     border-radius: 4px;
     border: none;
