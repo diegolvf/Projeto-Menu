@@ -10,11 +10,6 @@ html, body {
   font-family: sans-serif;
 }
 
-p, span {
-  text-align: center;
-  margin: 0.1rem;
-}
-
 ul, ol {
   list-style: none;
   z-index: 1;
@@ -25,6 +20,7 @@ a {
   color: #fff;
   z-index: 1;
 }
+
  button {
   background: none;
   border: none;

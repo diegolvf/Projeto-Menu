@@ -137,7 +137,7 @@ button {
     padding: 0.7rem 1rem;
     color: var(--color-button);
     background-color: var(--bg-button-color);
-    font-size: 0.8rem;
+    font-size: 1rem;
     border-radius: 4px;
     border: none;
     cursor: pointer;
