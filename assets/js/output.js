@@ -1,4 +1,4 @@
-function calc() {
+function generate_order() {
     const output = document.getElementById("output");
 
     // pega dados do cliente

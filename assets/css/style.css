@@ -128,7 +128,7 @@ input:focus {
     outline: none; /* remove o contorno padrão (opcional) */
     border: 2px solid #007bff; /* borda azul mais grossa */
     box-shadow: 0 0 5px #007bff; /* leve brilho */
-    background-color: #f0f8ff; /* muda o fundo */
+    background-color: var(--bg-input-focus); /* muda o fundo */
 }
 
 button {
@@ -147,27 +147,72 @@ button {
 }
 
 button:hover {
-    background-color: #e9e9e9;
-    color: #000000;
-}
-
-.check-out {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 95%;
-    height: auto;
-    background-color: var(--bg-check-out);
-    border-radius: 8px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
-    margin-bottom: 1.5rem;
-    padding: 1.5rem;
+    background-color: var(--bg-button-hover);
+    color: var(--color-button-hover);
 }
 
 #output {
-    background-color: var(--bg-output);
+    width: 95%;
+    background-color: var(--bg-output); /* fundo definido no seu código */
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: var(--font-Montserrat);
 }
 
+/* Cabeçalho da saída (dados do cliente) */
+#output h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    color: var(--color-output-h3); /* destaque azul para o nome do cliente */
+}
+
+#output p {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Lista de itens do pedido */
+.checkout_itens {
+    background-color: var(--bg-checkout-itens); /* leve contraste com o fundo da div */
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+
+.checkout_itens p {
+    margin: 3px 0;
+    font-size: 0.95rem;
+    text-align: left;
+}
+
+/* Subtotal e preço em destaque */
+.checkout_itens p:nth-child(3),
+.checkout_itens p:nth-child(4) {
+    font-weight: bold;
+    color:var(--color-checkout-total); /* verde para preços */
+}
+
+/* Total do pedido */
+#output h2 {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    text-align: center;
+    color: var(--color-output-h2); /* laranja para o total */
+}
+
+/* Mensagem final */
+#output p:last-child {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--color-output-p);
+}
 
 
 

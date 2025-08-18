@@ -6,7 +6,7 @@ function getCustomerInfo() {
 
     // retorna o texto formatado
     return `
-        <p>Olá senhor(a), <strong>${nome || "Não informado"}</strong>.</p>
+        <h3>Olá senhor(a), ${nome || "Não informado"}.</h3>
         <p>Telefone: ${telefone || "Não informado"}</p>
         <p>Email: ${email || "Não informado"}</p>
         <p>Segue abaixo o check-out do seu pedido:</p>

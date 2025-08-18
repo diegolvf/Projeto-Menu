@@ -7,8 +7,16 @@
     --bg-main-container: #FFFFFF;
     --bg-menu: #F5F5F5;
     --bg-button-color: #000;
+    --bg-button-hover: #e9e9e9;
     --bg-check-out: #F5F5F5;
-    --bg-output: #FFFFFF;
+    --bg-output: #F5F5F5;
+    --bg-checkout-itens:#FFFFFF;
+    --bg-input-focus: #f0f8ff;
     --color-button: #FFFBFE;
+    --color-button-hover: #000000;
     --color-preco: #3A6C2B;
+    --color-output-h3: #007bff;
+    --color-output-h2:#d35400;
+    --color-output-p: #555;
+    --color-checkout-total: #007b00;
 }
